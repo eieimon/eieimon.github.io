@@ -66,7 +66,7 @@
 
 .nav-arrows span {
 	position: absolute;
-	z-index: 2000;
+	z-index: 1;
 	top: 50%;
 	width: 40px;
 	height: 40px;
@@ -234,6 +234,22 @@
 	width: 60%;
 	max-width: 400px;
 	position: relative;
+	color: #585858;
+}
+.demo-1 .sl-slide .exp {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	height: 70px;
+	color: #8b8b8b;
+	z-index: 2;
+	bottom: 50%;
+	margin: 0 0 -200px 0;
+	padding: 0;
 }
 
 .demo-1 .sl-slide blockquote p:before {
@@ -249,6 +265,15 @@
 	left: -80px;
 	top: 35px;
 	content: '\201C';
+}
+
+.btnclass{
+	margin-right: 10px;
+}
+.btnclass, .btnclass1{
+	background: #E74C3C;
+	border-bottom: 3px solid #C0392B;
+
 }
 
 .demo-1 .sl-slide blockquote cite {
@@ -376,7 +401,116 @@
 .demo-2 .bg-img-5 {
 	background-image: url(../images/5.jpg);
 }
-
+.experience .modal-dialog{margin-top: 10%; font-weight: normal;}
+.experience .modal-dialog .modal-body{line-height: 25px; font-size: 14px; padding-bottom: 25px;}
+.experience .modal-dialog a{ color: #c9302c;}
+.carousel-control.right, .carousel-control.left{background: none;}
+.project .modal-dialog{width: 100%; min-height: 100%; margin: 0px; z-index: 2001;}
+.project .carousel-inner>.item>img{display: table; margin: 0px auto;}
+.project{padding-left: 0px !important;}
+.project .modal-dialog .modal-content{width: 100%; min-height: 100%; margin: 0px; position: absolute; border-radius: 0px;}
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left{color: #333;}
+.tt-wrapper{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	/*margin: 0px auto 10px auto;*/
+	/*margin-left: 36%;*/
+}
+.tt-wrapper li{
+	float: left;
+	padding: 0px 45px;
+}
+.tt-wrapper li a{
+	display: block;
+	width: 81px;
+	height: 93px;
+	margin: 0 2px;
+	outline: none;
+	text-indent: -9000px;
+	position: relative;
+}
+.tt-wrapper li .tt-github{
+    background-position: 0px 0px;
+    background: transparent url(../images/github.png) no-repeat top left;
+}
+.tt-wrapper li .tt-twitter{
+    background-position: -68px 0px;
+    background: transparent url(../images/twitter.png) no-repeat top left;
+}
+.tt-wrapper li .tt-facebook{
+    background-position: -204px 0px;
+    background: transparent url(../images/facebook.png) no-repeat top left;
+}
+.tt-wrapper li .tt-linkedin{
+    background-position: -272px 0px;
+    background: transparent url(../images/linkedin.png) no-repeat top left;
+}
+.tt-wrapper li a span{
+	width: 110px;
+	height: 50px;
+	line-height: 20px;
+	padding: 10px;
+	left: 45%;
+	top:-64%;
+	margin-left: -50px;
+	font-family: 'Alegreya SC', Georgia, serif;
+	font-weight: 400;	
+	/*font-style: italic;*/
+	font-size: 11px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 4px solid #fff;
+	background: rgba(255,255,255,0.3);
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 70px;
+	opacity: 0;
+	visibility: visible;
+	pointer-events: none;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transform: translate(35px) rotate(25deg) scale(1.5);
+	-moz-transform: translate(35px) rotate(25deg) scale(1.5);
+	-o-transform: translate(35px) rotate(25deg) scale(1.5);
+	-ms-transform: translate(35px) rotate(25deg) scale(1.5);
+	transform: translate(35px) rotate(25deg) scale(1.5);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.tt-wrapper li a span:before,
+.tt-wrapper li a span:after{
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.tt-wrapper li a span:after{
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #fff;
+}
+.tt-wrapper li a:hover span{
+	background: #333;
+	color:#fff;
+	visibility: visible;
+	opacity: 0.9;
+	-webkit-transform: translate(0px) rotate(0deg) scale(1);
+	-moz-transform: translate(0px) rotate(0deg) scale(1);
+	-o-transform: translate(0px) rotate(0deg) scale(1);
+	-ms-transform: translate(0px) rotate(0deg) scale(1);
+	transform: translate(0px) rotate(0deg) scale(1);
+}
 /* Animations for content elements */
 
 .sl-trans-elems .deco{

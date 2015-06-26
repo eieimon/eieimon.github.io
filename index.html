@@ -9,6 +9,7 @@
         <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -28,7 +29,7 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="H"><img src="images/logo.png" alt="" /></div>
 							<h2>About Me</h2>
-							<blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+							<blockquote><p>A creative minded individual with two years of functional web development experience, I designed and developed a colorful brand and outstanding web layouts. I have a diverse set of skils, ranging from design, to HTML,CSS,Javascript, all the way to PHP, custom Wordpress Theme development. I enjoy building small business sites to rich interactive web apps. </p></blockquote>
 						</div>
 					</div>
 					
@@ -36,7 +37,10 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="q"><img src="images/logo.png" alt="" /></div>
 							<h2>Experience</h2>
-							<blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+							<div class="exp">
+								<a href="#" class="btn btn-danger btnclass" data-toggle="modal" data-target="#frontend">Front-end</a>
+								<a href="" class="btn btn-danger btnclass1" data-toggle="modal" data-target="#wordpress">Wordpress</a>
+							</div>
 						</div>
 					</div>
 					
@@ -44,7 +48,7 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="O"><img src="images/logo.png" alt="" /></div>
 							<h2>SKILLS</h2>
-							<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+							<blockquote></blockquote>
 						</div>
 					</div>
 					
@@ -52,7 +56,9 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="I"><img src="images/logo.png" alt="" /></div>
 							<h2>PROJECTS</h2>
-							<blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+							<div class="exp">
+								<a href="#" class="btn btn-danger btnclass" data-toggle="modal" data-target="#project">My Project Portfolio</a>
+							</div>
 						</div>
 					</div>
 					
@@ -60,7 +66,15 @@
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="t"><img src="images/logo.png" alt="" /></div>
 							<h2>CONNECTIONS</h2>
-							<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+							<blockquote>
+								<cite>
+								<ul class="tt-wrapper">
+				                    <li><a class="tt-github" href="https://github.com/eieimon"><span>Github</span></a></li>
+				                    <li><a class="tt-facebook" href="https://www.facebook.com/gracy.mon.3?fref=ts"><span>Facebook</span></a></li>
+				                    <li><a class="tt-linkedin" href="http://www.linkedin.com/profile/view?id=211220241&amp;trk=nav_responsive_tab_profile"><span>LinkedIn</span></a></li>
+                  				</ul>
+                  				</cite>
+                  			</blockquote>
 						</div>
 					</div>
 				</div><!-- /sl-slider -->
@@ -70,102 +84,99 @@
 					<span class="nav-arrow-next">Next</span>
 				</nav>
 
-				<nav id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</nav>
-
 			</div><!-- /slider-wrapper -->
-
         </div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+        <div class="modal fade experience" id="frontend" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Front End</h4>
+				</div>
+				<div class="modal-body">
+					As a front-end developer, I am proficient at HTML, CSS, Bootstrap, Jquery, Javascript and Photoshop. Responsive, W3C standards, SEO and capabilities of different web browsers are factors I always keep in mind while designing and developing web content. For some projects, I have a responsibility to entry the data and layout inner pages for wordpress. This is my first step into web development and my favorite client sites are <a href="#">www.chapelgatefilms.co.uk</a>, <a href="#">www.smarttechnical.com</a> and <a href="#">www.rbsmm.com</a>.
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade experience" id="wordpress" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Wordpress</h4>
+				</div>
+				<div class="modal-body">
+					Start my career improvement as a Wordpress Developer in Aceplus Solutions Company. Projects I have to handle are ebook.xan.com.mm with zend framework and real estate wordpress site called allene.aceplussolutions.com. My role is responsible for coding and modifying websites, from layout to function and according to a client's specifications. Mostly I always try to create my wordpress sites with custom posts and fields for better site performance. Deep knowledge of editing and repurposing Wordpress plugins in accordance to customer's needs. I also possess excellent communication skills and can liaise effectively with both clients and work colleagues. During this year, I put my effort on working with Wordpress functions, SASS, Jquery and Ajax. Angular Js is my next step to catch up with web development.
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade project" id="project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">My Portfolio List</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/s1.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s2.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s3.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s4.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s5.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s6.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s7.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s8.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s9.png" alt="Portfolio1">
+							</div>
+							<div class="item">
+								<img src="images/s10.png" alt="Portfolio1">
+							</div>
+						</div>
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
-		<script type="text/javascript">	
-			$(function() {
-			
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ),
-						$nav = $( '#nav-dots > span' ),
-						slitslider = $( '#slider' ).slitslider( {
-							onBeforeChange : function( slide, pos ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-							}
-						} ),
-
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':last' ).on( 'click', function() {
-
-								slitslider.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':first' ).on( 'click', function() {
-								
-								slitslider.previous();
-								return false;
-
-							} );
-
-							$nav.each( function( i ) {
-							
-								$( this ).on( 'click', function( event ) {
-									
-									var $dot = $( this );
-									
-									if( !slitslider.isActive() ) {
-
-										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-									
-									}
-									
-									slitslider.jump( i + 1 );
-									return false;
-								
-								} );
-								
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-				/**
-				 * Notes: 
-				 * 
-				 * example how to add items:
-				 */
-
-				/*
-				
-				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-				
-				// call the plugin's add method
-				ss.add($items);
-
-				*/
-			
-			});
-		</script>
+		<script type="text/javascript" src="js/custom.js"></script>
 	</body>
 </html>
